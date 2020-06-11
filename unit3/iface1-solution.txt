@@ -13,8 +13,3 @@ iface ftdi1 inet static
 
 iface eth2 inet static inherits ruins1
 	address 92.73.234.238/27
-
-
-
-
-

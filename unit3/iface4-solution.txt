@@ -1,0 +1,32 @@
+iface moths0 inet static
+	mtu 4212
+	hwaddress 5E:6E:03:28:DA:4C
+
+iface moths1 inet static
+	mtu 7710
+	hwaddress 19:ED:D2:D3:99:4C
+
+iface ruins2 inet static
+	mtu 4187
+	hwaddress 00:22:56:9A:D4:18
+
+
+
+
+
+
+
+
+
+
+
+iface wlan0 inet static inherits moths1
+	address 74.149.84.254/4
+
+iface wlan1 inet static inherits ruins2
+	address 82.4.161.145/6
+
+iface wlan2 inet static inherits moths0
+	address 94.116.196.217/21
+
+

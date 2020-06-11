@@ -35,4 +35,3 @@ iface jam6 inet dhcp inherits ruins1
 iface wlan5 inet dhcp
 
 
-
