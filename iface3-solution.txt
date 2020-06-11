@@ -1,0 +1,37 @@
+iface moths0 inet static
+	mtu 4292
+	hwaddress 07:1F:B8:6D:11:34
+
+iface ruins1 inet static
+	mtu 6129
+	hwaddress EF:4F:89:D4:B6:63
+
+iface ruins2 inet static
+	mtu 5089
+	hwaddress C7:E4:24:83:67:D8
+
+iface ruins3 inet static
+	mtu 4090
+	hwaddress 12:EC:45:39:02:D8
+
+iface wlan0 inet static inherits ruins1
+	address 86.123.213.10/24
+
+
+iface wlan1 inet dhcp inherits ruins1
+
+iface ftdi2 inet dhcp inherits ruins2
+
+iface ftdi3 inet dhcp
+
+iface ftdi4 inet dhcp
+
+iface jam6 inet dhcp inherits ruins1
+
+
+
+
+
+iface wlan5 inet dhcp
+
+

@@ -1,0 +1,15 @@
+iface castle0 inet static
+	mtu 1625
+	hwaddress 69:E6:23:D0:1A:DA
+
+iface ruins1 inet static
+	mtu 8698
+	hwaddress 7E:4C:7E:51:25:B3
+
+iface ftdi0 inet dhcp inherits ruins1
+
+iface ftdi1 inet static
+	address 100.66.149.153/16
+
+iface eth2 inet static inherits ruins1
+	address 92.73.234.238/27
