@@ -1,0 +1,715 @@
+
+dn: dc=consolidatednouns,dc=nodomain
+changetype: add
+objectclass: top
+objectclass: organization
+objectclass: dcObject
+o: Consolidated Nouns
+destinationIndicator: Kiribati
+
+
+
+dn: dc=adjectivalcomponents,dc=nodomain
+changetype: add
+objectclass: top
+objectclass: organization
+objectclass: dcObject
+o: Adjectival Components
+destinationIndicator: Norfolk Island
+
+
+dn: dc=classicexports,dc=nodomain
+changetype: add
+objectclass: top
+objectclass: organization
+objectclass: dcObject
+o: Classic Exports
+destinationIndicator: Kiribati
+
+
+dn: dc=internationaluniversity,dc=nodomain
+changetype: add
+objectclass: top
+objectclass: organization
+objectclass: dcObject
+o: International University
+destinationIndicator: Kiribati
+
+
+dn: dc=cutpricecomponents,dc=nodomain
+changetype: add
+objectclass: top
+objectclass: organization
+objectclass: dcObject
+o: Cut-Price Components
+destinationIndicator: Norfolk Island
+
+
+dn: ou=Pest control,dc=consolidatednouns,dc=nodomain
+changetype: add
+objectclass: top
+objectclass: organizationalunit
+
+dn: ou=Production,ou=Pest control,dc=consolidatednouns,dc=nodomain
+changetype: add
+objectclass: top
+objectclass: organizationalunit
+
+
+dn: ou=Statistical misinterpretation,ou=Production,ou=Pest control,dc=consolidatednouns,dc=nodomain
+changetype: add
+objectclass: top
+objectclass: organizationalunit
+
+
+dn: ou=Consolidation,dc=adjectivalcomponents,dc=nodomain
+changetype: add
+objectclass: top
+objectclass: organizationalunit
+
+dn: ou=Manufacture,ou=Consolidation,dc=adjectivalcomponents,dc=nodomain
+changetype: add
+objectclass: top
+objectclass: organizationalunit
+
+
+dn: ou=Environmental exploitation,dc=classicexports,dc=nodomain
+changetype: add
+objectclass: top
+objectclass: organizationalunit
+
+dn: ou=Marketing,ou=Environmental exploitation,dc=classicexports,dc=nodomain
+changetype: add
+objectclass: top
+objectclass: organizationalunit
+
+dn: ou=market punctuation,ou=Marketing,ou=Environmental exploitation,dc=classicexports,dc=nodomain
+changetype: add
+objectclass: top
+objectclass: organizationalunit
+
+dn: ou=Diabolical schemes,ou=Environmental exploitation,dc=classicexports,dc=nodomain
+changetype: add
+objectclass: top
+objectclass: organizationalunit
+
+
+dn: ou=Consolidation,dc=internationaluniversity,dc=nodomain
+changetype: add
+objectclass: top
+objectclass: organizationalunit
+
+dn: ou=Statistical misinterpretation,ou=Consolidation,dc=internationaluniversity,dc=nodomain
+changetype: add
+objectclass: top
+objectclass: organizationalunit
+
+dn: ou=Diabolical schemes,ou=Statistical misinterpretation,ou=Consolidation,dc=internationaluniversity,dc=nodomain
+changetype: add
+objectclass: top
+objectclass: organizationalunit
+
+
+dn: ou=Rhetorical devices,dc=cutpricecomponents,dc=nodomain
+changetype: add
+objectclass: top
+objectclass: organizationalunit
+
+dn: ou=Environmental protection,ou=Rhetorical devices,dc=cutpricecomponents,dc=nodomain
+changetype: add
+objectclass: top
+objectclass: organizationalunit
+
+dn: ou=Pest control,ou=Rhetorical devices,dc=cutpricecomponents,dc=nodomain
+changetype: add
+objectclass: top
+objectclass: organizationalunit
+
+dn: ou=Human resources,ou=Pest control,ou=Rhetorical devices,dc=cutpricecomponents,dc=nodomain
+changetype: add
+objectclass: top
+objectclass: organizationalunit
+
+
+dn: cn=Matthew Walker,dc=cutpricecomponents,dc=nodomain
+changetype: add
+objectclass: inetOrgPerson
+gn: Matthew
+sn: Walker
+ou: Environmental protection
+mail: mwalker@adjectivalcomponents.com.nf
+telephoneNumber: +672209327
+telephoneNumber: +672209336
+telephoneNumber: +672209505
+telephoneNumber: +672209846
+
+
+dn: cn=Francesca Williams,dc=internationaluniversity,dc=nodomain
+changetype: add
+objectclass: inetOrgPerson
+gn: Francesca
+sn: Williams
+ou: Diabolical schemes
+mail: francesca.williams@classicexports.com.ki
+
+
+dn: cn=Mark Watson,dc=cutpricecomponents,dc=nodomain
+changetype: add
+objectclass: inetOrgPerson
+gn: Mark
+sn: Watson
+ou: Diabolical schemes
+mail: mark.watson@classicexports.com.ki
+mobile: +68621336403
+mobile: +68621336651
+mobile: +68621336754
+mobile: +68621336399
+
+
+dn: cn=Flora Smith,dc=adjectivalcomponents,dc=nodomain
+changetype: add
+objectclass: inetOrgPerson
+gn: Flora
+sn: Smith
+ou: Consolidation
+mail: fsmith@classicexports.com.ki
+mobile: +68621336927
+mobile: +68621336567
+mobile: +68621336856
+mobile: +68621336497
+
+
+dn: cn=Murray Jackson,dc=consolidatednouns,dc=nodomain
+changetype: add
+objectclass: inetOrgPerson
+gn: Murray
+sn: Jackson
+ou: Pest control
+mail: murray6j7@classicexports.com.ki
+mobile: +68621336551
+mobile: +68621336437
+
+
+dn: cn=Martin Davies,dc=cutpricecomponents,dc=nodomain
+changetype: add
+objectclass: inetOrgPerson
+gn: Martin
+sn: Davies
+ou: Rhetorical devices
+mail: fwatson@cutpricecomponents.com.nf
+telephoneNumber: +672200545
+telephoneNumber: +672200814
+manager: cn=Matthew Walker,ou=Environmental protection,ou=Rhetorical devices,dc=cutpricecomponents,dc=nodomain
+
+
+dn: cn=Morgan Walker,dc=internationaluniversity,dc=nodomain
+changetype: add
+objectclass: inetOrgPerson
+gn: Morgan
+sn: Walker
+ou: Statistical misinterpretation
+mail: morgan.walker@classicexports.com.ki
+mobile: +68621336403
+mobile: +68621336651
+mobile: +68621336754
+mobile: +68621336399
+manager: cn=Francesca Williams,ou=Diabolical schemes,ou=Statistical misinterpretation,dc=internationaluniversity,dc=nodomain
+
+
+dn: cn=Freya Lewis,dc=internationaluniversity,dc=nodomain
+changetype: add
+objectclass: inetOrgPerson
+gn: Freya
+sn: Lewis
+ou: Statistical misinterpretation
+mail: fl5@cutpricecomponents.com.nf
+telephoneNumber: +672200601
+telephoneNumber: +672200097
+manager: cn=Francesca Williams,ou=Diabolical schemes,ou=Statistical misinterpretation,dc=internationaluniversity,dc=nodomain
+
+
+dn: cn=Fay Harris,dc=cutpricecomponents,dc=nodomain
+changetype: add
+objectclass: inetOrgPerson
+gn: Fay
+sn: Harris
+ou: Rhetorical devices
+mail: fay.harris@classicexports.com.ki
+mobile: +68621336280
+manager: cn=Matthew Walker,ou=Environmental protection,ou=Rhetorical devices,dc=cutpricecomponents,dc=nodomain
+
+
+dn: cn=Matthew White,dc=internationaluniversity,dc=nodomain
+changetype: add
+objectclass: inetOrgPerson
+gn: Matthew
+sn: White
+ou: Consolidation
+mail: mwhite@adjectivalcomponents.com.nf
+telephoneNumber: +672209440
+telephoneNumber: +672209729
+telephoneNumber: +672209031
+telephoneNumber: +672209117
+manager: cn=Morgan Walker,ou=Statistical misinterpretation,ou=Consolidation,dc=internationaluniversity,dc=nodomain
+
+
+dn: cn=Martin Davies,dc=internationaluniversity,dc=nodomain
+changetype: add
+objectclass: inetOrgPerson
+gn: Martin
+sn: Davies
+ou: Statistical misinterpretation
+mail: mdavies@internationaluniversity.com.ki
+mobile: +68621089624
+mobile: +68621089528
+mobile: +68621089871
+mobile: +68621089732
+manager: cn=Matthew White,ou=Statistical misinterpretation,ou=Consolidation,dc=internationaluniversity,dc=nodomain
+
+
+dn: cn=Mario Wilson,dc=cutpricecomponents,dc=nodomain
+changetype: add
+objectclass: inetOrgPerson
+gn: Mario
+sn: Wilson
+ou: Pest control
+mail: mario5w6@cutpricecomponents.com.nf
+telephoneNumber: +672200715
+telephoneNumber: +672200340
+telephoneNumber: +672200149
+manager: cn=Matthew Walker,ou=Environmental protection,dc=dc=cutpricecomponents,dc=nodomain
+
+
+dn: cn=Mario Green,dc=cutpricecomponents,dc=nodomain
+changetype: add
+objectclass: inetOrgPerson
+gn: Mario
+sn: Green
+ou: Environmental exploitation
+mail: mg11@adjectivalcomponents.com.nf
+telephoneNumber: +672209921
+manager: cn=Mark Watson,ou=Diabolical schemes,ou=Environmental exploitation,dc=dc=cutpricecomponents,dc=nodomain
+
+
+dn: cn=Frances Cooper,dc=adjectivalcomponents,dc=nodomain
+changetype: add
+objectclass: inetOrgPerson
+gn: Frances
+sn: Cooper
+ou: Manufacture
+mail: frances.cooper@consolidatednouns.com.ki
+mobile: +68685957350
+manager: cn=Flora Smith,ou=Manufacture,ou=Consolidation,dc=adjectivalcomponents,dc=nodomain
+
+
+dn: cn=Mark Thompson,dc=adjectivalcomponents,dc=nodomain
+changetype: add
+objectclass: inetOrgPerson
+gn: Mark
+sn: Thompson
+ou: Manufacture
+mail: mt13@internationaluniversity.com.ki
+mobile: +68621089987
+mobile: +68621089856
+mobile: +68621089743
+mobile: +68621089491
+manager: cn=Flora Smith,ou=Manufacture,ou=Consolidation,dc=adjectivalcomponents,dc=nodomain
+
+
+dn: cn=Freya James,dc=consolidatednouns,dc=nodomain
+changetype: add
+objectclass: inetOrgPerson
+gn: Freya
+sn: James
+ou: Statistical misinterpretation
+mail: freya5j5@internationaluniversity.com.ki
+mobile: +68621089395
+mobile: +68621089029
+mobile: +68621089237
+manager: cn=Murray Jackson,ou=Pest control,ou=Statistical misinterpretation,dc=consolidatednouns,dc=nodomain
+
+
+dn: cn=Fleur Martin,dc=cutpricecomponents,dc=nodomain
+changetype: add
+objectclass: inetOrgPerson
+gn: Fleur
+sn: Martin
+ou: Rhetorical devices
+mail: fm16@consolidatednouns.com.ki
+mobile: +68685957928
+manager: cn=Mario Wilson,ou=Pest control,ou=Rhetorical devices,dc=cutpricecomponents,dc=nodomain
+
+
+dn: cn=Freda Johnson,dc=internationaluniversity,dc=nodomain
+changetype: add
+objectclass: inetOrgPerson
+gn: Freda
+sn: Johnson
+ou: Diabolical schemes
+mail: freda.johnson@cutpricecomponents.com.nf
+telephoneNumber: +672200538
+telephoneNumber: +672200606
+telephoneNumber: +672200840
+manager: cn=Matthew White,ou=Statistical misinterpretation,ou=Consolidation,ou=Diabolical schemes,dc=internationaluniversity,dc=nodomain
+
+
+dn: cn=Fifi White,dc=consolidatednouns,dc=nodomain
+changetype: add
+objectclass: inetOrgPerson
+gn: Fifi
+sn: White
+ou: Pest control
+mail: fifi.white@cutpricecomponents.com.nf
+telephoneNumber: +672200917
+telephoneNumber: +672200996
+manager: cn=Freya James,ou=Statistical misinterpretation,dc=consolidatednouns,dc=nodomain
+
+
+dn: cn=Mario Williams,dc=cutpricecomponents,dc=nodomain
+changetype: add
+objectclass: inetOrgPerson
+gn: Mario
+sn: Williams
+ou: market punctuation
+mail: mw19@cutpricecomponents.com.nf
+telephoneNumber: +672200772
+telephoneNumber: +672200725
+telephoneNumber: +672200644
+telephoneNumber: +672200590
+manager: cn=Mark Watson,ou=Diabolical schemes,ou=Environmental exploitation,dc=dc=cutpricecomponents,dc=nodomain
+
+
+dn: cn=Frances Johnson,dc=internationaluniversity,dc=nodomain
+changetype: add
+objectclass: inetOrgPerson
+gn: Frances
+sn: Johnson
+ou: Statistical misinterpretation
+mail: fj20@consolidatednouns.com.ki
+mobile: +68685957542
+mobile: +68685957464
+manager: cn=Matthew White,ou=Statistical misinterpretation,ou=Consolidation,ou=Diabolical schemes,dc=internationaluniversity,dc=nodomain
+
+
+
+dn: cn=Micah James,dc=adjectivalcomponents,dc=nodomain
+changetype: add
+objectclass: inetOrgPerson
+gn: Micah
+sn: James
+ou: Statistical misinterpretation
+mail: micah5j5@classicexports.com.ki
+mobile: +68621336622
+manager: cn=Mark Thompson,ou=Manufacture,dc=adjectivalcomponents,dc=nodomain
+
+
+dn: cn=Frances Green,dc=consolidatednouns,dc=nodomain
+changetype: add
+objectclass: inetOrgPerson
+gn: Frances
+sn: Green
+ou: Statistical misinterpretation
+mail: frances7g5@internationaluniversity.com.ki
+manager: cn=Fifi White,ou=Pest control,dc=consolidatednouns,dc=nodomain
+
+
+
+dn: cn=Flora Watson,dc=classicexports,dc=nodomain
+changetype: add
+objectclass: inetOrgPerson
+gn: Flora
+sn: Watson
+ou: Statistical misinterpretation
+mail: fw23@classicexports.com.ki
+mobile: +68621336730
+manager: cn=Mario Green,ou=Environmental exploitation,dc=classicexports,dc=nodomain
+
+
+dn: cn=Murray Davies,dc=consolidatednouns,dc=nodomain
+changetype: add
+objectclass: inetOrgPerson
+gn: Murray
+sn: Davies
+ou: Pest control
+mail: murray.davies@internationaluniversity.com.ki
+mobile: +68621336730
+manager: cn=Mario Green,ou=Pest control,dc=consolidatednouns,dc=nodomain
+
+
+dn: cn=Morgan Williams,dc=internationaluniversity,dc=nodomain
+changetype: add
+objectclass: inetOrgPerson
+gn: Morgan
+sn: Williams
+ou: Statistical misinterpretation
+mail: murray.davies@internationaluniversity.com.ki
+mobile: +68685957637
+mobile: +68685957062
+mobile: +68685957624
+mobile: +68685957600
+manager: cn=Freya Lewis,ou=Statistical misinterpretation,dc=internationaluniversity,dc=nodomain
+
+
+dn: cn=Fran Thomas,dc=adjectivalcomponents,dc=nodomain
+changetype: add
+objectclass: inetOrgPerson
+gn: Fran
+sn: Thomas
+ou: Consolidation
+mail: fran4t6@adjectivalcomponents.com.nf
+telephoneNumber: +672209071
+telephoneNumber: +672209973
+telephoneNumber: +672209131
+manager: cn=Mark Thompson,ou=Manufacture,dc=adjectivalcomponents,dc=nodomain
+
+
+dn: cn=Fiona Taylor,dc=classicexports,dc=nodomain
+changetype: add
+objectclass: inetOrgPerson
+gn: Fiona
+sn: Taylor
+ou: Consolidation
+mail: ftaylor@adjectivalcomponents.com.nf
+telephoneNumber: +672209199
+telephoneNumber: +672209981
+telephoneNumber: +672209899
+manager: cn=Mark Watson,ou=Diabolical schemes,dc=classicexports,dc=nodomain
+
+
+dn: cn=Frances King,dc=cutpricecomponents,dc=nodomain
+changetype: add
+objectclass: inetOrgPerson
+gn: Frances
+sn: King
+ou: Environmental protection
+mail: fking@adjectivalcomponents.com.nf
+manager: cn=Mario Wilson,ou=Pest control,ou=Rhetorical devices,dc=cutpricecomponents,dc=nodomain
+
+
+dn: cn=Martin Taylor,dc=cutpricecomponents,dc=nodomain
+changetype: add
+objectclass: inetOrgPerson
+gn: Martin
+sn: Taylor
+ou: Rhetorical devices
+mail: mt29@consolidatednouns.com.ki
+manager: cn=Matthew Walker,cn=Matthew Walker,ou=Environmental protection,dc=dc=cutpricecomponents,dc=nodomain
+
+
+dn: cn=Freda Green,dc=consolidatednouns,dc=nodomain
+changetype: add
+objectclass: inetOrgPerson
+gn: Frances
+sn: Green
+ou: Pest control
+mail: fg30@cutpricecomponents.com.nf
+manager: cn=Fifi White,ou=Pest control,dc=consolidatednouns,dc=nodomain
+
+
+dn: cn=Frances Jackson,dc=classicexports,dc=nodomain
+changetype: add
+objectclass: inetOrgPerson
+gn: Frances
+sn: Jackson
+ou: market punctuation
+mail: fj31@adjectivalcomponents.com.nf
+manager: cn=Mario Williams,ou=market punctuation,dc=classicexports,dc=nodomain
+
+
+
+dn: cn=Fiona Thomas,dc=adjectivalcomponents,dc=nodomain
+changetype: add
+objectclass: inetOrgPerson
+gn: Fiona
+sn: Thomas
+ou: Consolidation
+mail: ft32@adjectivalcomponents.com.nf
+telephoneNumber: +672209713
+manager: cn=Frances Cooper,ou=Manufacture,dc=adjectivalcomponents,dc=nodomain
+
+
+dn: cn=Matthew Jackson,dc=adjectivalcomponents,dc=nodomain
+changetype: add
+objectclass: inetOrgPerson
+gn: Matthew
+sn: Jackson
+ou: Consolidation
+mail: matthew7j7@classicexports.com.ki
+mobile: +68621336904
+manager: cn=Frances Cooper,ou=Manufacture,dc=adjectivalcomponents,dc=nodomain
+
+
+dn: cn=Flora Cooper,dc=adjectivalcomponents,dc=nodomain
+changetype: add
+objectclass: inetOrgPerson
+gn: Flora
+sn: Cooper
+ou: Consolidation
+mail: flora.cooper@cutpricecomponents.com.nf
+telephoneNumber: +672200127
+telephoneNumber: +672200150
+telephoneNumber: +672200984
+manager: cn=Micah James,ou=Statistical misinterpretation,dc=adjectivalcomponents,dc=nodomain
+
+
+dn: cn=Mark White,dc=classicexports,dc=nodomain
+changetype: add
+objectclass: inetOrgPerson
+gn: Mark
+sn: White
+ou: Marketing
+mail: mark.white@internationaluniversity.com.ki
+mobile: +68621089081
+manager: cn=Frances Jackson,ou=market punctuation,dc=classicexports,dc=nodomain
+
+
+dn: cn=Mitchell Lee,dc=adjectivalcomponents,dc=nodomain
+changetype: add
+objectclass: inetOrgPerson
+gn: Mitchell
+sn: Lee
+ou: Manufacture
+mail: mitchell.lee@consolidatednouns.com.ki
+manager: cn=Flora Smith,ou=Consolidation,dc=adjectivalcomponents,dc=nodomain
+
+
+dn: cn=Murray Watson,dc=adjectivalcomponents,dc=nodomain
+changetype: add
+objectclass: inetOrgPerson
+gn: Murray
+sn: Watson
+ou: Consolidation
+mail: mw37@consolidatednouns.com.ki
+mobile: +68685957898
+mobile: +68685957713
+manager: cn=Flora Cooper,ou=Consolidation,dc=adjectivalcomponents,dc=nodomain
+
+
+dn: cn=Fiona Jones,dc=cutpricecomponents,dc=nodomain
+changetype: add
+objectclass: inetOrgPerson
+gn: Fiona
+sn: Jones
+ou: Pest control
+mail: fiona.jones@internationaluniversity.com.ki
+mobile: +68621089819
+manager: cn=Mario Wilson,ou=Pest control,dc=cutpricecomponents,dc=nodomain
+
+
+dn: cn=Fran Wood,dc=internationaluniversity,dc=nodomain
+changetype: add
+objectclass: inetOrgPerson
+gn: Fran
+sn: Wood
+ou: Statistical misinterpretation
+mail: fran4w4@adjectivalcomponents.com.nf
+telephoneNumber: +672209769
+telephoneNumber: +672209273
+telephoneNumber: +672209776
+telephoneNumber: +672209850
+manager: cn=Martin Davies,ou=Statistical misinterpretation,dc=internationaluniversity,dc=nodomain
+
+
+dn: cn=Mark Davies,dc=internationaluniversity,dc=nodomain
+changetype: add
+objectclass: inetOrgPerson
+gn: Mark
+sn: Davies
+ou: Diabolical schemes
+mobile: +68685957205
+mobile: +68685957621
+mobile: +68685957567
+manager: cn=Morgan Williams,ou=Statistical misinterpretation,dc=internationaluniversity,dc=nodomain
+
+
+
+dn: cn=Fleur Cooper,dc=consolidatednouns,dc=nodomain
+changetype: add
+objectclass: inetOrgPerson
+gn: Fleur
+sn: Cooper
+ou: Statistical misinterpretation
+mail: fcooper@cutpricecomponents.com.nf
+telephoneNumber: +672200944
+telephoneNumber: +672200202
+telephoneNumber: +672200506
+telephoneNumber: +672200784
+manager: cn=Murray Jackson,ou=Pest control,dc=consolidatednouns,dc=nodomain
+
+
+dn: cn=Magnus Johnson,dc=classicexports,dc=nodomain
+changetype: add
+objectclass: inetOrgPerson
+gn: Magnus
+sn: Johnson
+ou: Diabolical schemes
+mail: magnus.johnson@adjectivalcomponents.com.nf
+telephoneNumber: +672209908
+telephoneNumber: +672209958
+manager: cn=Mario Williams,ou=market punctuation,dc=classicexports,dc=nodomain
+
+
+dn: cn=Freda Robinson,dc=internationaluniversity,dc=nodomain
+changetype: add
+objectclass: inetOrgPerson
+gn: Freda
+sn: Robinson
+ou: Consolidation
+mail: freda.robinson@internationaluni-versity.com.ki
+mobile: +68621089333
+mobile: +68621089133
+mobile: +68621089648
+manager: cn= Fran Wood,ou=Statistical misinterpretation,dc=internationaluniversity,dc=nodomain
+
+
+dn: cn=Francesca Lewis,dc=consolidatednouns,dc=nodomain
+changetype: add
+objectclass: inetOrgPerson
+gn: Francesca
+sn: Lewis
+ou: Statistical misinterpretation
+mail: francesca9l5@consolidatednouns.com.ki
+mobile: +68685957500 
+mobile: +68685957046
+mobile: +68685957788
+mobile: +68685957797
+manager: cn=Fifi White,ou=Pest control,dc=consolidatednouns,dc=nodomain
+
+
+dn: cn=Fiona Robinson,dc=internationaluniversity,dc=nodomain
+changetype: add
+objectclass: inetOrgPerson
+gn: Fiona
+sn: Robinson
+ou: Consolidation
+mail: fiona5r8@cutpricecomponents.com.nf
+telephoneNumber: +672200253
+telephoneNumber: +672200892
+manager: cn= Fran Wood,ou=Statistical misinterpretation,dc=internationaluniversity,dc=nodomain
+
+
+dn: cn=Murray Brown,dc=cutpricecomponents,dc=nodomain
+changetype: add
+objectclass: inetOrgPerson
+gn: Murray
+sn: Brown
+ou: Rhetorical devices
+mail: murray.brown@adjectivalcomponents.com.nf
+telephoneNumber: +672209157
+telephoneNumber: +672209729
+telephoneNumber: +672209436
+manager: cn=Fiona Jones,ou=Pest control,dc=cutpricecomponents,dc=nodomain
+
+
+dn: cn=Francesca Jackson,dc=cutpricecomponents,dc=nodomain
+changetype: add
+objectclass: inetOrgPerson
+gn: Francesca
+sn: Jackson
+ou: Rhetorical devices
+mail: fjackson@consolidatednouns.com.ki
+mobile: +68685957027 
+mobile: +68685957050
+mobile: +68685957748
+manager: cn=Fay Harris,ou=Pest control,dc=cutpricecomponents,dc=nodomain
+
