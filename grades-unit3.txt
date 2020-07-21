@@ -1,1 +1,227 @@
+6,7d5
+< 
+< 
+0a1,3
+> iface castle0 inet static
+> 	mtu 1625
+> 	hwaddress 69:E6:23:D0:1A:DA
+1a5,7
+> iface ruins1 inet static
+> 	mtu 8698
+> 	hwaddress 7E:4C:7E:51:25:B3
+2a9
+> iface ftdi0 inet dhcp inherits ruins1
+4c11
+< 
+---
+> iface ftdi1 inet static
+6,9c13
+< 	address 92.73.234.238/27
+< 	hwaddress 69:E6:23:D0:1A:DA
+< 	hwaddress 7E:4C:7E:51:25:B3
+< iface castle0 inet static
+---
+> 
+11,15c15,20
+< iface ftdi0 inet dhcp inherits ruins1
+< iface ftdi1 inet static
+< iface ruins1 inet static
+< 	mtu 1625
+< 	mtu 8698
+---
+> 	address 92.73.234.238/27
+> 
+> 
+> 
+> 
+> 
+13,22d12
+< 
+< 
+< 
+< 
+< 
+< 
+< 
+< 
+< 
+< 
+0a1,3
+> iface moths0 inet static
+> 	mtu 4292
+> 	hwaddress 07:1F:B8:6D:11:34
+1a5,7
+> iface ruins1 inet static
+> 	mtu 6129
+> 	hwaddress EF:4F:89:D4:B6:63
+2a9,11
+> iface ruins2 inet static
+> 	mtu 5089
+> 	hwaddress C7:E4:24:83:67:D8
+3a13,15
+> iface ruins3 inet static
+> 	mtu 4090
+> 	hwaddress 12:EC:45:39:02:D8
+4a17,18
+> iface wlan0 inet static inherits ruins1
+> 	address 86.123.213.10/24
+6a21
+> iface wlan1 inet dhcp inherits ruins1
+7a23
+> iface ftdi2 inet dhcp inherits ruins2
+8a25
+> iface ftdi3 inet dhcp
+9a27
+> iface ftdi4 inet dhcp
+10a29
+> iface jam6 inet dhcp inherits ruins1
+15a35,36
+> iface wlan5 inet dhcp
+> 
+18,37d38
+< 	address 86.123.213.10/24
+< 	hwaddress 07:1F:B8:6D:11:34
+< 	hwaddress 12:EC:45:39:02:D8
+< 	hwaddress C7:E4:24:83:67:D8
+< 	hwaddress EF:4F:89:D4:B6:63
+< iface ftdi2 inet dhcp inherits ruins2
+< iface ftdi3 inet dhcp
+< iface ftdi4 inet dhcp
+< iface jam6 inet dhcp inherits ruins1
+< iface moths0 inet static
+< iface ruins1 inet static
+< iface ruins2 inet static
+< iface ruins3 inet static
+< iface wlan0 inet static inherits ruins1
+< iface wlan1 inet dhcp inherits ruins1
+< iface wlan5 inet dhcp
+< 	mtu 4090
+< 	mtu 4292
+< 	mtu 5089
+< 	mtu 6129
+7,17d6
+< 
+< 
+< 
+< 
+< 
+< 
+< 
+< 
+< 
+< 
+< 
+Incorrect answer for question 37 in 'unit3/answers.txt'
+Incorrect answer for question 40 in 'unit3/answers.txt'
+Incorrect answer for question 41 in 'unit3/answers.txt'
+Incorrect answer for question 42 in 'unit3/answers.txt'
+Incorrect answer for question 43 in 'unit3/answers.txt'
+Incorrect answer for question 44 in 'unit3/answers.txt'
+Incorrect answer for question 45 in 'unit3/answers.txt'
+Incorrect answer for question 46 in 'unit3/answers.txt'
+Incorrect answer for question 47 in 'unit3/answers.txt'
+Incorrect answer for question 48 in 'unit3/answers.txt'
+Incorrect answer for question 49 in 'unit3/answers.txt'
+Incorrect answer for question 50 in 'unit3/answers.txt'
+Incorrect answer for question 51 in 'unit3/answers.txt'
+Incorrect answer for question 52 in 'unit3/answers.txt'
+Incorrect answer for question 53 in 'unit3/answers.txt'
+Incorrect answer for question 54 in 'unit3/answers.txt'
+Incorrect answer for question 55 in 'unit3/answers.txt'
+Incorrect answer for question 56 in 'unit3/answers.txt'
+Incorrect answer for question 57 in 'unit3/answers.txt'
+Incorrect answer for question 58 in 'unit3/answers.txt'
+Incorrect answer for question 59 in 'unit3/answers.txt'
+Incorrect answer for question 60 in 'unit3/answers.txt'
+Incorrect answer for question 61 in 'unit3/answers.txt'
+Incorrect answer for question 62 in 'unit3/answers.txt'
+Incorrect answer for question 63 in 'unit3/answers.txt'
+Incorrect answer for question 64 in 'unit3/answers.txt'
+Incorrect answer for question 65 in 'unit3/answers.txt'
+Incorrect answer for question 66 in 'unit3/answers.txt'
+Incorrect answer for question 67 in 'unit3/answers.txt'
+Incorrect answer for question 68 in 'unit3/answers.txt'
+Incorrect answer for question 69 in 'unit3/answers.txt'
+Incorrect answer for question 70 in 'unit3/answers.txt'
+Incorrect answer for question 71 in 'unit3/answers.txt'
+Incorrect answer for question 72 in 'unit3/answers.txt'
+Incorrect answer for question 73 in 'unit3/answers.txt'
+Incorrect answer for question 74 in 'unit3/answers.txt'
+Incorrect answer for question 75 in 'unit3/answers.txt'
+Incorrect answer for question 76 in 'unit3/answers.txt'
+Incorrect answer for question 78 in 'unit3/answers.txt'
+Incorrect answer for question 79 in 'unit3/answers.txt'
+200/400 after HASH:unit3/answers.txt:unit3/check.txt
+diff unit3/iface0-solution.txt.sorted unit3/iface0-sorted.txt | wc -l > wc.log
+Diff output has 3 lines different:
+diff unit3/iface0-solution.txt.sorted unit3/iface0-sorted.txt
+Answer file 'unit3/iface0-solution.txt' has incorrect hash -- something is not exactly correct.
+261/500 after SORT:unit3/iface0-solution.txt:unit3/iface0-sorted.txt:unit3/iface0-hash.txt
+diff unit3/iface1-solution.txt.sorted unit3/iface1-sorted.txt | wc -l > wc.log
+Diff output has 34 lines different:
+diff unit3/iface1-solution.txt.sorted unit3/iface1-sorted.txt
+Answer file 'unit3/iface1-solution.txt' has incorrect hash -- something is not exactly correct.
+261/600 after SORT:unit3/iface1-solution.txt:unit3/iface1-sorted.txt:unit3/iface1-hash.txt
+diff unit3/iface2-solution.txt.sorted unit3/iface2-sorted.txt | wc -l > wc.log
+Diff output has 11 lines different:
+diff unit3/iface2-solution.txt.sorted unit3/iface2-sorted.txt
+Answer file 'unit3/iface2-solution.txt' has incorrect hash -- something is not exactly correct.
+318/700 after SORT:unit3/iface2-solution.txt:unit3/iface2-sorted.txt:unit3/iface2-hash.txt
+diff unit3/iface3-solution.txt.sorted unit3/iface3-sorted.txt | wc -l > wc.log
+Diff output has 53 lines different:
+diff unit3/iface3-solution.txt.sorted unit3/iface3-sorted.txt
+Answer file 'unit3/iface3-solution.txt' has incorrect hash -- something is not exactly correct.
+318/800 after SORT:unit3/iface3-solution.txt:unit3/iface3-sorted.txt:unit3/iface3-hash.txt
+diff unit3/iface4-solution.txt.sorted unit3/iface4-sorted.txt | wc -l > wc.log
+Diff output has 12 lines different:
+diff unit3/iface4-solution.txt.sorted unit3/iface4-sorted.txt
+Answer file 'unit3/iface4-solution.txt' has incorrect hash -- something is not exactly correct.
+365/900 after SORT:unit3/iface4-solution.txt:unit3/iface4-sorted.txt:unit3/iface4-hash.txt
+No entry '28.12.160.0     0.0.0.0         255.255.224.0   ' in file 'unit3/routetable0add.log'
+No entry '123.207.128.0   10.1.1.2        255.255.192.0   ' in file 'unit3/routetable0add.log'
+No entry '99.222.0.0      10.1.1.2        255.255.128.0   ' in file 'unit3/routetable0add.log'
+No entry '32.248.142.164  10.1.1.2        255.255.255.252 ' in file 'unit3/routetable0add.log'
+No entry '79.163.39.192   10.1.1.2        255.255.255.192 ' in file 'unit3/routetable0add.log'
+No entry '75.221.83.252   10.1.1.2        255.255.255.252 ' in file 'unit3/routetable0add.log'
+6 entries in route table were wrong.
+365/925 after MATCH:+unit3/routes0.txt:unit3/routetable0add.log
+390/950 after MATCH:-unit3/routes0.txt:unit3/routetable0del.log
+No entry '76.251.141.48   10.1.1.2        255.255.255.248 ' in file 'unit3/routetable1add.log'
+No entry '37.125.64.0     10.1.1.2        255.255.192.0   ' in file 'unit3/routetable1add.log'
+No entry '115.32.144.0    0.0.0.0         255.255.252.0   ' in file 'unit3/routetable1add.log'
+No entry '15.168.0.0      0.0.0.0         255.255.0.0     ' in file 'unit3/routetable1add.log'
+No entry '21.101.0.0      10.1.1.2        255.255.0.0     ' in file 'unit3/routetable1add.log'
+No entry '22.142.254.22   0.0.0.0         255.255.255.254 ' in file 'unit3/routetable1add.log'
+6 entries in route table were wrong.
+390/975 after MATCH:+unit3/routes1.txt:unit3/routetable1add.log
+415/1000 after MATCH:-unit3/routes1.txt:unit3/routetable1del.log
+No entry '121.52.211.0    0.0.0.0         255.255.255.0   ' in file 'unit3/routetable2add.log'
+No entry '83.3.134.208    10.1.1.2        255.255.255.240 ' in file 'unit3/routetable2add.log'
+No entry '78.158.251.12   10.1.1.2        255.255.255.252 ' in file 'unit3/routetable2add.log'
+No entry '37.134.208.0    0.0.0.0         255.255.248.0   ' in file 'unit3/routetable2add.log'
+No entry '72.120.20.0     10.1.1.2        255.255.252.0   ' in file 'unit3/routetable2add.log'
+No entry '55.70.164.0     0.0.0.0         255.255.252.0   ' in file 'unit3/routetable2add.log'
+6 entries in route table were wrong.
+415/1025 after MATCH:+unit3/routes2.txt:unit3/routetable2add.log
+440/1050 after MATCH:-unit3/routes2.txt:unit3/routetable2del.log
+No entry '45.157.245.124  10.1.1.2        255.255.255.252 ' in file 'unit3/routetable3add.log'
+No entry '87.73.0.0       10.1.1.2        255.255.0.0     ' in file 'unit3/routetable3add.log'
+No entry '12.252.115.32   10.1.1.2        255.255.255.224 ' in file 'unit3/routetable3add.log'
+No entry '121.6.48.0      0.0.0.0         255.255.252.0   ' in file 'unit3/routetable3add.log'
+No entry '74.211.128.0    0.0.0.0         255.255.192.0   ' in file 'unit3/routetable3add.log'
+No entry '28.212.128.0    10.1.1.2        255.255.248.0   ' in file 'unit3/routetable3add.log'
+6 entries in route table were wrong.
+440/1075 after MATCH:+unit3/routes3.txt:unit3/routetable3add.log
+465/1100 after MATCH:-unit3/routes3.txt:unit3/routetable3del.log
+No entry '68.226.224.0    10.1.1.2        255.255.224.0   ' in file 'unit3/routetable4add.log'
+No entry '44.124.98.192   10.1.1.2        255.255.255.240 ' in file 'unit3/routetable4add.log'
+No entry '51.83.124.236   10.1.1.2        255.255.255.252 ' in file 'unit3/routetable4add.log'
+No entry '108.44.252.128  10.1.1.2        255.255.255.240 ' in file 'unit3/routetable4add.log'
+No entry '67.248.225.160  0.0.0.0         255.255.255.224 ' in file 'unit3/routetable4add.log'
+No entry '94.77.160.0     0.0.0.0         255.255.224.0   ' in file 'unit3/routetable4add.log'
+6 entries in route table were wrong.
+465/1125 after MATCH:+unit3/routes4.txt:unit3/routetable4add.log
+490/1150 after MATCH:-unit3/routes4.txt:unit3/routetable4del.log
+SUMMARY:490/1150
+TOTAL:42
 NOTE: The figures above are based on the work submitted at this point in time.  It does not take into account any late penalties. Nor does is stop you from submitting an updated version. It is simply an automatically generated summary of the raw score that your current work has obtained.
